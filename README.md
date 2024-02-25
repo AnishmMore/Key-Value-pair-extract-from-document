@@ -46,7 +46,7 @@ This document outlines the approach taken to extract data from PDFs and scanned 
 
 2. **Run Application:**
     - Place the PDF files or scanned images in the specified directory.
-    - Execute the provided Python script to extract data: `python data_extraction.py`.
+    - Execute the provided Python script to extract data: `python app.py`.
     - The script will process the files, extract data, and save it to a CSV file named `extracted_data.csv`.
 
 3. **Considerations:**
