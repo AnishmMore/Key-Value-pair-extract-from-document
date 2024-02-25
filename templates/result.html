@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to CSV Result</title>
+</head>
+<body>
+    <h1>CSV Output</h1>
+    <a href="data:text/csv;base64,{{ csv_data }}" download="extracted_data.csv">Download CSV</a>
+    <br><br>
+    <textarea rows="20" cols="80">{{ csv_data }}</textarea>
+</body>
+</html>
